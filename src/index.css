@@ -43,6 +43,10 @@ body {
   background-color: hsl(110, 85%, 69%);
 }
 
+.header-signin{
+  border-radius: 50px;
+}
+
 .header-searcher-bundle{
   display: flex;
   flex-direction: row;
@@ -86,7 +90,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  gap: 100px;
+  gap: 50px;
   margin-left: 2px;
 }
 
@@ -95,12 +99,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: solid 2px;
+  border: solid 1px;
   border-radius: 5px;
   margin-top: 25px;
   padding: 10px;
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 40%;
 }
 
 .control-buttons{
@@ -140,6 +144,50 @@ padding: 20px;
 width: 20px;
 }
 
+.home-container{
+  border: solid 1px;
+  border-radius: 10px;
+  margin-top: 25px;
+  min-width: 100vh;
+}
+
+.rightpane-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 10px;
+  margin-top: 25px;
+  width: 400px;
+  margin-right: 10px;
+  height: 70%;
+  
+}
+
+.iterate-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 10px;
+  padding:20px;
+  margin-bottom: 2px;
+  list-style: none;
+}
+
+.right-but{
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+  background-color: rgb(142, 245, 211);
+  transition: ease 0.5s;
+}
+
+.right-but:hover{
+  background-color:  rgb(179, 245, 223);
+  box-shadow: 2px 2px;
+}
 
 /* ############################## Footer #########################################*/
 

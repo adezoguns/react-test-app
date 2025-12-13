@@ -1,4 +1,4 @@
-import {React, useState} from 'react';
+import { useState } from 'react';
 
 
 function Header(){
@@ -13,9 +13,9 @@ const [param, setParam]=useState(0);
                    <a href="/Home">Home</a>
                    <a href="/Products">Products</a>
                    <a href="/About us">About us</a>
-                   <button>SignIn</button>
+                   <button className="header-signin">SignIn</button>
                    <input className="header-search" type="text" placeholder="Search" />
-                   <button className="header-button" onClick={() => setParam(p + 1)}>Search</button>
+                   <button className="header-button" onClick={() => setParam(param + 1)}>Search</button>
                 </div>
             </div>
         </>
